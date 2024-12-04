@@ -16,6 +16,12 @@
         .result-card {
             margin-top: 20px;
         }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -51,6 +57,12 @@
         </div>
         <div id="result" class="result-card card p-4 shadow d-none"></div>
     </div>
+    
+    <!-- Footer -->
+    <footer>
+        <p>Developed by Dr. Babajan Banaganapalli | Email: <a href="mailto:bioinformatics.bb@gmail.com">bioinformatics.bb@gmail.com</a></p>
+    </footer>
+
     <script>
         async function fetchAnnotation() {
             const transcriptId = document.getElementById("transcriptId").value;
