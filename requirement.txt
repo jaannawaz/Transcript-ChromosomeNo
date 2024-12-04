@@ -1,2 +1,4 @@
 Flask==2.3.2
+biopython==1.81
 requests==2.31.0
+gunicorn==21.2.0
