@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+}
+#result {
+    white-space: pre-wrap;
+    background: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
